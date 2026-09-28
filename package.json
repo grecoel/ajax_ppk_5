@@ -1,0 +1,33 @@
+{
+  "name": "ajax-expense-tracker-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "db:setup": "tsx database/setup.ts",
+    "db:seed": "tsx database/seed.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "next": "^16.3.6",
+    "pg": "^8.23.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^2.1.1",
+    "@types/node": "^22.19.0",
+    "@types/pg": "^8.15.6",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^10.11.0",
+    "eslint-config-next": "^16.3.6",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
